@@ -244,6 +244,16 @@ blockquote:before {content:'“'; position:absolute; left:15px; top:13px; font-s
 	color:#999;
 }
 
+/*固定ページ*/
+.single_blog_post {
+    border-bottom: 1px solid #e3e3e3;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    -moz-box-shadow: 0 0 2px 0 rgba(0,0,0,0.12),0px 2px 2px 0 rgba(0,0,0,0.24);
+    box-shadow: 0 0 2px 0 rgba(0,0,0,0.12),0px 2px 2px 0 rgba(0,0,0,0.24);
+}
+
 
 
 
@@ -1229,6 +1239,16 @@ a:hover .btn_contact{
 	color:#999;
 }
 
+/*サイドバー*/
+
+.sidebar {
+    border-bottom: 1px solid #e3e3e3;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    -moz-box-shadow: 0 0 2px 0 rgba(0,0,0,0.12),0px 2px 2px 0 rgba(0,0,0,0.24);
+    box-shadow: 0 0 2px 0 rgba(0,0,0,0.12),0px 2px 2px 0 rgba(0,0,0,0.24);
+}
 
 
 
