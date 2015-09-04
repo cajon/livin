@@ -234,7 +234,7 @@ blockquote:before {content:'“'; position:absolute; left:15px; top:13px; font-s
 .breadcrumbs_block h2 {
 	margin-bottom:15px;
 	line-height:80px;
-	font-size:80px;
+	font-size:60px;
 	color:#fff;
 }
 .breadcrumbs_block p {
