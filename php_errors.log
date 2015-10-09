@@ -1,0 +1,158 @@
+[01-Oct-2015 10:22:05 UTC] PHP Notice:  register_sidebar が<strong>誤って</strong>呼び出されました。「サイドバー 2」サイドバーの引数の配列で <code>id</code> が設定されませんでした。既定では「sidebar-2」です。<code>id</code> に「sidebar-2」を設定することでこの情報を消して、既存のサイドバーのコンテンツを保つことができます。 詳細は <a href="http://wpdocs.sourceforge.jp/Debugging_in_WordPress">WordPress のデバッグ</a>をご覧ください。 (このメッセージはバージョン 4.2.0 で追加されました) in /home/ubuntu/workspace/wp-includes/functions.php on line 3560
+[01-Oct-2015 10:22:05 UTC] PHP Stack trace:
+[01-Oct-2015 10:22:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[01-Oct-2015 10:22:05 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[01-Oct-2015 10:22:05 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 10:22:05 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 10:22:05 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 10:22:05 UTC] PHP   6. register_sidebar() /home/ubuntu/workspace/wp-content/themes/livin/functions.php:22
+[01-Oct-2015 10:22:05 UTC] PHP   7. _doing_it_wrong() /home/ubuntu/workspace/wp-includes/widgets.php:823
+[01-Oct-2015 10:22:05 UTC] PHP   8. trigger_error() /home/ubuntu/workspace/wp-includes/functions.php:3560
+[01-Oct-2015 10:22:09 UTC] PHP Notice:  register_sidebar が<strong>誤って</strong>呼び出されました。「サイドバー 2」サイドバーの引数の配列で <code>id</code> が設定されませんでした。既定では「sidebar-2」です。<code>id</code> に「sidebar-2」を設定することでこの情報を消して、既存のサイドバーのコンテンツを保つことができます。 詳細は <a href="http://wpdocs.sourceforge.jp/Debugging_in_WordPress">WordPress のデバッグ</a>をご覧ください。 (このメッセージはバージョン 4.2.0 で追加されました) in /home/ubuntu/workspace/wp-includes/functions.php on line 3560
+[01-Oct-2015 10:22:09 UTC] PHP Stack trace:
+[01-Oct-2015 10:22:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/widgets.php:0
+[01-Oct-2015 10:22:09 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/widgets.php:10
+[01-Oct-2015 10:22:09 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[01-Oct-2015 10:22:09 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 10:22:09 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 10:22:09 UTC] PHP   6. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 10:22:09 UTC] PHP   7. register_sidebar() /home/ubuntu/workspace/wp-content/themes/livin/functions.php:22
+[01-Oct-2015 10:22:09 UTC] PHP   8. _doing_it_wrong() /home/ubuntu/workspace/wp-includes/widgets.php:823
+[01-Oct-2015 10:22:09 UTC] PHP   9. trigger_error() /home/ubuntu/workspace/wp-includes/functions.php:3560
+[01-Oct-2015 10:22:14 UTC] PHP Notice:  register_sidebar が<strong>誤って</strong>呼び出されました。「サイドバー 2」サイドバーの引数の配列で <code>id</code> が設定されませんでした。既定では「sidebar-2」です。<code>id</code> に「sidebar-2」を設定することでこの情報を消して、既存のサイドバーのコンテンツを保つことができます。 詳細は <a href="http://wpdocs.sourceforge.jp/Debugging_in_WordPress">WordPress のデバッグ</a>をご覧ください。 (このメッセージはバージョン 4.2.0 で追加されました) in /home/ubuntu/workspace/wp-includes/functions.php on line 3560
+[01-Oct-2015 10:22:14 UTC] PHP Stack trace:
+[01-Oct-2015 10:22:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[01-Oct-2015 10:22:14 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[01-Oct-2015 10:22:14 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 10:22:14 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 10:22:14 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 10:22:14 UTC] PHP   6. register_sidebar() /home/ubuntu/workspace/wp-content/themes/livin/functions.php:22
+[01-Oct-2015 10:22:14 UTC] PHP   7. _doing_it_wrong() /home/ubuntu/workspace/wp-includes/widgets.php:823
+[01-Oct-2015 10:22:14 UTC] PHP   8. trigger_error() /home/ubuntu/workspace/wp-includes/functions.php:3560
+[01-Oct-2015 10:22:17 UTC] PHP Notice:  register_sidebar が<strong>誤って</strong>呼び出されました。「サイドバー 2」サイドバーの引数の配列で <code>id</code> が設定されませんでした。既定では「sidebar-2」です。<code>id</code> に「sidebar-2」を設定することでこの情報を消して、既存のサイドバーのコンテンツを保つことができます。 詳細は <a href="http://wpdocs.sourceforge.jp/Debugging_in_WordPress">WordPress のデバッグ</a>をご覧ください。 (このメッセージはバージョン 4.2.0 で追加されました) in /home/ubuntu/workspace/wp-includes/functions.php on line 3560
+[01-Oct-2015 10:22:17 UTC] PHP Stack trace:
+[01-Oct-2015 10:22:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[01-Oct-2015 10:22:17 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[01-Oct-2015 10:22:17 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 10:22:17 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 10:22:17 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 10:22:17 UTC] PHP   6. register_sidebar() /home/ubuntu/workspace/wp-content/themes/livin/functions.php:22
+[01-Oct-2015 10:22:17 UTC] PHP   7. _doing_it_wrong() /home/ubuntu/workspace/wp-includes/widgets.php:823
+[01-Oct-2015 10:22:17 UTC] PHP   8. trigger_error() /home/ubuntu/workspace/wp-includes/functions.php:3560
+[01-Oct-2015 10:22:18 UTC] PHP Notice:  register_sidebar が<strong>誤って</strong>呼び出されました。「サイドバー 2」サイドバーの引数の配列で <code>id</code> が設定されませんでした。既定では「sidebar-2」です。<code>id</code> に「sidebar-2」を設定することでこの情報を消して、既存のサイドバーのコンテンツを保つことができます。 詳細は <a href="http://wpdocs.sourceforge.jp/Debugging_in_WordPress">WordPress のデバッグ</a>をご覧ください。 (このメッセージはバージョン 4.2.0 で追加されました) in /home/ubuntu/workspace/wp-includes/functions.php on line 3560
+[01-Oct-2015 10:22:18 UTC] PHP Stack trace:
+[01-Oct-2015 10:22:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[01-Oct-2015 10:22:18 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[01-Oct-2015 10:22:18 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 10:22:18 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 10:22:18 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 10:22:18 UTC] PHP   6. register_sidebar() /home/ubuntu/workspace/wp-content/themes/livin/functions.php:22
+[01-Oct-2015 10:22:18 UTC] PHP   7. _doing_it_wrong() /home/ubuntu/workspace/wp-includes/widgets.php:823
+[01-Oct-2015 10:22:18 UTC] PHP   8. trigger_error() /home/ubuntu/workspace/wp-includes/functions.php:3560
+[01-Oct-2015 10:22:19 UTC] PHP Notice:  register_sidebar が<strong>誤って</strong>呼び出されました。「サイドバー 2」サイドバーの引数の配列で <code>id</code> が設定されませんでした。既定では「sidebar-2」です。<code>id</code> に「sidebar-2」を設定することでこの情報を消して、既存のサイドバーのコンテンツを保つことができます。 詳細は <a href="http://wpdocs.sourceforge.jp/Debugging_in_WordPress">WordPress のデバッグ</a>をご覧ください。 (このメッセージはバージョン 4.2.0 で追加されました) in /home/ubuntu/workspace/wp-includes/functions.php on line 3560
+[01-Oct-2015 10:22:19 UTC] PHP Stack trace:
+[01-Oct-2015 10:22:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/widgets.php:0
+[01-Oct-2015 10:22:19 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/widgets.php:10
+[01-Oct-2015 10:22:19 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[01-Oct-2015 10:22:19 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 10:22:19 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 10:22:19 UTC] PHP   6. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 10:22:19 UTC] PHP   7. register_sidebar() /home/ubuntu/workspace/wp-content/themes/livin/functions.php:22
+[01-Oct-2015 10:22:19 UTC] PHP   8. _doing_it_wrong() /home/ubuntu/workspace/wp-includes/widgets.php:823
+[01-Oct-2015 10:22:19 UTC] PHP   9. trigger_error() /home/ubuntu/workspace/wp-includes/functions.php:3560
+[01-Oct-2015 10:23:04 UTC] PHP Notice:  register_sidebar が<strong>誤って</strong>呼び出されました。「サイドバー 2」サイドバーの引数の配列で <code>id</code> が設定されませんでした。既定では「sidebar-2」です。<code>id</code> に「sidebar-2」を設定することでこの情報を消して、既存のサイドバーのコンテンツを保つことができます。 詳細は <a href="http://wpdocs.sourceforge.jp/Debugging_in_WordPress">WordPress のデバッグ</a>をご覧ください。 (このメッセージはバージョン 4.2.0 で追加されました) in /home/ubuntu/workspace/wp-includes/functions.php on line 3560
+[01-Oct-2015 10:23:04 UTC] PHP Stack trace:
+[01-Oct-2015 10:23:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/widgets.php:0
+[01-Oct-2015 10:23:04 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/widgets.php:10
+[01-Oct-2015 10:23:04 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[01-Oct-2015 10:23:04 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 10:23:04 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 10:23:04 UTC] PHP   6. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 10:23:04 UTC] PHP   7. register_sidebar() /home/ubuntu/workspace/wp-content/themes/livin/functions.php:22
+[01-Oct-2015 10:23:04 UTC] PHP   8. _doing_it_wrong() /home/ubuntu/workspace/wp-includes/widgets.php:823
+[01-Oct-2015 10:23:04 UTC] PHP   9. trigger_error() /home/ubuntu/workspace/wp-includes/functions.php:3560
+[01-Oct-2015 10:23:06 UTC] PHP Notice:  register_sidebar が<strong>誤って</strong>呼び出されました。「サイドバー 2」サイドバーの引数の配列で <code>id</code> が設定されませんでした。既定では「sidebar-2」です。<code>id</code> に「sidebar-2」を設定することでこの情報を消して、既存のサイドバーのコンテンツを保つことができます。 詳細は <a href="http://wpdocs.sourceforge.jp/Debugging_in_WordPress">WordPress のデバッグ</a>をご覧ください。 (このメッセージはバージョン 4.2.0 で追加されました) in /home/ubuntu/workspace/wp-includes/functions.php on line 3560
+[01-Oct-2015 10:23:06 UTC] PHP Stack trace:
+[01-Oct-2015 10:23:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[01-Oct-2015 10:23:06 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[01-Oct-2015 10:23:06 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 10:23:06 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 10:23:06 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 10:23:06 UTC] PHP   6. register_sidebar() /home/ubuntu/workspace/wp-content/themes/livin/functions.php:22
+[01-Oct-2015 10:23:06 UTC] PHP   7. _doing_it_wrong() /home/ubuntu/workspace/wp-includes/widgets.php:823
+[01-Oct-2015 10:23:06 UTC] PHP   8. trigger_error() /home/ubuntu/workspace/wp-includes/functions.php:3560
+[01-Oct-2015 10:23:27 UTC] PHP Notice:  register_sidebar が<strong>誤って</strong>呼び出されました。「サイドバー 1」サイドバーの引数の配列で <code>id</code> が設定されませんでした。既定では「sidebar-1」です。<code>id</code> に「sidebar-1」を設定することでこの情報を消して、既存のサイドバーのコンテンツを保つことができます。 詳細は <a href="http://wpdocs.sourceforge.jp/Debugging_in_WordPress">WordPress のデバッグ</a>をご覧ください。 (このメッセージはバージョン 4.2.0 で追加されました) in /home/ubuntu/workspace/wp-includes/functions.php on line 3560
+[01-Oct-2015 10:23:27 UTC] PHP Stack trace:
+[01-Oct-2015 10:23:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/widgets.php:0
+[01-Oct-2015 10:23:27 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/widgets.php:10
+[01-Oct-2015 10:23:27 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[01-Oct-2015 10:23:27 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 10:23:27 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 10:23:27 UTC] PHP   6. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 10:23:27 UTC] PHP   7. register_sidebar() /home/ubuntu/workspace/wp-content/themes/livin/functions.php:22
+[01-Oct-2015 10:23:27 UTC] PHP   8. _doing_it_wrong() /home/ubuntu/workspace/wp-includes/widgets.php:823
+[01-Oct-2015 10:23:27 UTC] PHP   9. trigger_error() /home/ubuntu/workspace/wp-includes/functions.php:3560
+[01-Oct-2015 10:23:42 UTC] PHP Notice:  register_sidebar が<strong>誤って</strong>呼び出されました。「サイドバー 1」サイドバーの引数の配列で <code>id</code> が設定されませんでした。既定では「sidebar-1」です。<code>id</code> に「sidebar-1」を設定することでこの情報を消して、既存のサイドバーのコンテンツを保つことができます。 詳細は <a href="http://wpdocs.sourceforge.jp/Debugging_in_WordPress">WordPress のデバッグ</a>をご覧ください。 (このメッセージはバージョン 4.2.0 で追加されました) in /home/ubuntu/workspace/wp-includes/functions.php on line 3560
+[01-Oct-2015 10:23:42 UTC] PHP Stack trace:
+[01-Oct-2015 10:23:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[01-Oct-2015 10:23:42 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[01-Oct-2015 10:23:42 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-Oct-2015 10:23:42 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:83
+[01-Oct-2015 10:23:42 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:329
+[01-Oct-2015 10:23:42 UTC] PHP   6. register_sidebar() /home/ubuntu/workspace/wp-content/themes/livin/functions.php:22
+[01-Oct-2015 10:23:42 UTC] PHP   7. _doing_it_wrong() /home/ubuntu/workspace/wp-includes/widgets.php:823
+[01-Oct-2015 10:23:42 UTC] PHP   8. trigger_error() /home/ubuntu/workspace/wp-includes/functions.php:3560
+[09-Oct-2015 00:43:17 UTC] PHP Warning:  予期しないエラーが発生しました。WordPress.org かこのサーバーの設定に何か問題があるかもしれません。問題が続くようであれば、<a href="https://ja.forums.wordpress.org/">サポートフォーラム</a>を参照してみてください。 (WordPress は WordPress.org との安全な接続を確立できませんでした。サーバー管理者にご連絡ください) in /home/ubuntu/workspace/wp-admin/includes/plugin-install.php on line 83
+[09-Oct-2015 00:43:17 UTC] PHP Stack trace:
+[09-Oct-2015 00:43:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugin-install.php:0
+[09-Oct-2015 00:43:17 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/plugin-install.php:129
+[09-Oct-2015 00:43:17 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:496}() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[09-Oct-2015 00:43:17 UTC] PHP   4. install_dashboard() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[09-Oct-2015 00:43:17 UTC] PHP   5. install_popular_tags() /home/ubuntu/workspace/wp-admin/includes/plugin-install.php:143
+[09-Oct-2015 00:43:17 UTC] PHP   6. plugins_api() /home/ubuntu/workspace/wp-admin/includes/plugin-install.php:123
+[09-Oct-2015 00:43:17 UTC] PHP   7. trigger_error() /home/ubuntu/workspace/wp-admin/includes/plugin-install.php:83
+[09-Oct-2015 00:43:47 UTC] PHP Warning:  予期しないエラーが発生しました。WordPress.org かこのサーバーの設定に何か問題があるかもしれません。問題が続くようであれば、<a href="https://ja.forums.wordpress.org/">サポートフォーラム</a>を参照してみてください。 (WordPress は WordPress.org との安全な接続を確立できませんでした。サーバー管理者にご連絡ください) in /home/ubuntu/workspace/wp-admin/includes/plugin-install.php on line 83
+[09-Oct-2015 00:43:47 UTC] PHP Stack trace:
+[09-Oct-2015 00:43:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugin-install.php:0
+[09-Oct-2015 00:43:47 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/plugin-install.php:129
+[09-Oct-2015 00:43:47 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:496}() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[09-Oct-2015 00:43:47 UTC] PHP   4. install_dashboard() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[09-Oct-2015 00:43:47 UTC] PHP   5. install_popular_tags() /home/ubuntu/workspace/wp-admin/includes/plugin-install.php:143
+[09-Oct-2015 00:43:47 UTC] PHP   6. plugins_api() /home/ubuntu/workspace/wp-admin/includes/plugin-install.php:123
+[09-Oct-2015 00:43:47 UTC] PHP   7. trigger_error() /home/ubuntu/workspace/wp-admin/includes/plugin-install.php:83
+[09-Oct-2015 00:44:21 UTC] PHP Warning:  予期しないエラーが発生しました。WordPress.org かこのサーバーの設定に何か問題があるかもしれません。問題が続くようであれば、<a href="https://ja.forums.wordpress.org/">サポートフォーラム</a>を参照してみてください。 (WordPress は WordPress.org との安全な接続を確立できませんでした。サーバー管理者にご連絡ください) in /home/ubuntu/workspace/wp-admin/includes/plugin-install.php on line 83
+[09-Oct-2015 00:44:21 UTC] PHP Stack trace:
+[09-Oct-2015 00:44:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugin-install.php:0
+[09-Oct-2015 00:44:21 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/plugin-install.php:129
+[09-Oct-2015 00:44:21 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:496}() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[09-Oct-2015 00:44:21 UTC] PHP   4. install_dashboard() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[09-Oct-2015 00:44:21 UTC] PHP   5. install_popular_tags() /home/ubuntu/workspace/wp-admin/includes/plugin-install.php:143
+[09-Oct-2015 00:44:21 UTC] PHP   6. plugins_api() /home/ubuntu/workspace/wp-admin/includes/plugin-install.php:123
+[09-Oct-2015 00:44:21 UTC] PHP   7. trigger_error() /home/ubuntu/workspace/wp-admin/includes/plugin-install.php:83
+[09-Oct-2015 00:45:24 UTC] PHP Warning:  予期しないエラーが発生しました。WordPress.org かこのサーバーの設定に何か問題があるかもしれません。問題が続くようであれば、<a href="https://ja.forums.wordpress.org/">サポートフォーラム</a>を参照してみてください。 (WordPress は WordPress.org との安全な接続を確立できませんでした。サーバー管理者にご連絡ください) in /home/ubuntu/workspace/wp-includes/update.php on line 119
+[09-Oct-2015 00:45:24 UTC] PHP Stack trace:
+[09-Oct-2015 00:45:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/update.php:0
+[09-Oct-2015 00:45:24 UTC] PHP   2. Plugin_Upgrader->install() /home/ubuntu/workspace/wp-admin/update.php:145
+[09-Oct-2015 00:45:24 UTC] PHP   3. WP_Upgrader->run() /home/ubuntu/workspace/wp-admin/includes/class-wp-upgrader.php:743
+[09-Oct-2015 00:45:24 UTC] PHP   4. do_action() /home/ubuntu/workspace/wp-admin/includes/class-wp-upgrader.php:615
+[09-Oct-2015 00:45:24 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:496}() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[09-Oct-2015 00:45:24 UTC] PHP   6. wp_version_check() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[09-Oct-2015 00:45:24 UTC] PHP   7. trigger_error() /home/ubuntu/workspace/wp-includes/update.php:119
+[09-Oct-2015 00:45:30 UTC] PHP Warning:  予期しないエラーが発生しました。WordPress.org かこのサーバーの設定に何か問題があるかもしれません。問題が続くようであれば、<a href="https://ja.forums.wordpress.org/">サポートフォーラム</a>を参照してみてください。 (WordPress は WordPress.org との安全な接続を確立できませんでした。サーバー管理者にご連絡ください) in /home/ubuntu/workspace/wp-includes/update.php on line 295
+[09-Oct-2015 00:45:30 UTC] PHP Stack trace:
+[09-Oct-2015 00:45:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/update.php:0
+[09-Oct-2015 00:45:30 UTC] PHP   2. Plugin_Upgrader->install() /home/ubuntu/workspace/wp-admin/update.php:145
+[09-Oct-2015 00:45:30 UTC] PHP   3. WP_Upgrader->run() /home/ubuntu/workspace/wp-admin/includes/class-wp-upgrader.php:743
+[09-Oct-2015 00:45:30 UTC] PHP   4. do_action() /home/ubuntu/workspace/wp-admin/includes/class-wp-upgrader.php:615
+[09-Oct-2015 00:45:30 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:496}() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[09-Oct-2015 00:45:30 UTC] PHP   6. wp_update_plugins() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[09-Oct-2015 00:45:30 UTC] PHP   7. trigger_error() /home/ubuntu/workspace/wp-includes/update.php:295
+[09-Oct-2015 00:45:35 UTC] PHP Warning:  予期しないエラーが発生しました。WordPress.org かこのサーバーの設定に何か問題があるかもしれません。問題が続くようであれば、<a href="https://ja.forums.wordpress.org/">サポートフォーラム</a>を参照してみてください。 (WordPress は WordPress.org との安全な接続を確立できませんでした。サーバー管理者にご連絡ください) in /home/ubuntu/workspace/wp-includes/update.php on line 457
+[09-Oct-2015 00:45:35 UTC] PHP Stack trace:
+[09-Oct-2015 00:45:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/update.php:0
+[09-Oct-2015 00:45:35 UTC] PHP   2. Plugin_Upgrader->install() /home/ubuntu/workspace/wp-admin/update.php:145
+[09-Oct-2015 00:45:35 UTC] PHP   3. WP_Upgrader->run() /home/ubuntu/workspace/wp-admin/includes/class-wp-upgrader.php:743
+[09-Oct-2015 00:45:35 UTC] PHP   4. do_action() /home/ubuntu/workspace/wp-admin/includes/class-wp-upgrader.php:615
+[09-Oct-2015 00:45:35 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:496}() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[09-Oct-2015 00:45:35 UTC] PHP   6. wp_update_themes() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[09-Oct-2015 00:45:35 UTC] PHP   7. trigger_error() /home/ubuntu/workspace/wp-includes/update.php:457

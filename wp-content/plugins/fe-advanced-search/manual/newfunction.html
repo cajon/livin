@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>新機能 | FE Advanced Search 使用説明書</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="syntaxhighlighter/shCore.js"></script>
+	<script type="text/javascript" src="syntaxhighlighter/shBrushPhp.js"></script>
+	<script type="text/javascript" src="syntaxhighlighter/shBrushCss.js"></script>
+	<script type="text/javascript" src="syntaxhighlighter/shBrushXml.js"></script>
+	<link type="text/css" rel="stylesheet" href="syntaxhighlighter/shCoreDefault.css"/>
+	<script type="text/javascript">
+		SyntaxHighlighter.defaults['html-script'] = true;
+		SyntaxHighlighter.defaults['tab-size'] = 2;
+		SyntaxHighlighter.all();
+	</script>
+</head>
+
+<body>
+<a name="top" id="top"></a>
+
+	<div id="header" class="clearfix">
+		<div id="title">
+		<h1>
+			WordPress用絞り込み検索プラグイン
+			<a href="index.html"><img src="images/feas_banner.gif" width="308" height="57" alt="FEAdvancedSearch" /></a>
+		</h1>
+		<p id="header-text1">version 1.6.2</p>
+		<p id="header-text2">使用説明書</p>
+		</div>
+		<p id="koushin">最終更新：2015年9月8日</p>
+	</div>
+	
+	
+	<!--グローバルメニュー--> 	
+	<div id="globalmenu">
+		<ul>
+			<li class="li-1"><a href="index.html">初めに</a></il>
+			<li class="li-1"><a href="manual.html">使用方法</a></il>
+			<li class="li-1"><a href="newfunction.html">新機能</a></il>
+			<li class="li-1"><a href="support.html">サポート</a></il>
+			<li><a href="http://www.firstelement.jp/contact/" target="_self">問い合わせ</a></il>
+		</ul>
+	</div>
+	
+	
+	<div id="tabs">
+		
+		<div class="panel">
+			
+				<h4>［version 1.6 機能追加］</h4>
+				<ul class="newfunction-list">
+					<li>ソート機能がメイン以外のすべての検索フォームに対応</li>
+					<li>カスタムフィールドでソート時、数値か文字列かを指定できるように</li>
+					<li>「初期設定カテゴリ」がカスタムタクソノミに対応</li>
+					<li>「検索結果の並び順」が任意のカスタムフィールド、ランダムでのソートに対応</li>
+				</ul>
+				<h4>［version 1.6.2 不具合改善］</h4>
+				<ul class="newfunction-list">
+					<li>WordPress 4.3 対応</li>
+					<li>文字コードutf8mb4で運用の際、フリーワード検索の「ゆらぎ」にチェックを入れた場合の検索の不具合を修正。</li>
+					<li>フリーワード検索時、カスタムフィールドの複数のキーを指定した場合の不具合を修正。</li>
+					<li>検索ボタンの「前に挿入」欄の不適切なエスケープ処理の修正。</li>
+					<li>Chrome（ブラウザ）で「消去」ボタンの表示不具合を修正。</li>
+					<li>「フォーム外観」の入力欄で、不適切なエスケープ処理の修正。</li>
+					<li>フォームのhidden項目に付与されたid属性が、複数フォーム設置した際に重複する問題を修正。</li>
+					<li>適切な例外処理による脆弱性の改善。</li>
+					<li>テーマ『Twenty Fifteen』での不具合（検索条件が2倍量表示／サイドバーのウィジェットの内容に影響）を解消。</li>
+				</ul>
+				<h4>［version 1.6 仕様変更］</h4>
+				<ul class="newfunction-list">							
+					<li>設定画面内の各所の表記を変更</li>
+					<li>カスタムフィールドをフリーワード検索時、チェックボックスを非表示に</li>
+					　従来、指定されたカスタムフィールドのキーをチェックボックスで表示しておりましたが、inputのhiddenフィールドに変更し、ユーザーが特にキーを指定しなくても特定のカスタムフィールド内を検索できるようになりました。
+					<li><span>（初期の並び順、ソートボタンともに）ソート機能の仕様が代わりましたので、再設定が必要です。</span>
+					<img src="images/feas_new_01.png" alt="feas_new_01" width="839" /><br><br>
+					<img src="images/feas_new_02.png" alt="feas_new_02" width="839" />
+					</li>
+				</ul>	
+				<h4>［その他］</h4>
+				<ul class="newfunction-list">
+					<li>検索結果ページにおいて、サイドバーの"最新の記事"など、サブループの内容が検索条件の影響を受けて書き換わってしまう場合、FEASが書き換えたクエリを除去するために、サブループの手前で remove_filter を使用してください。
+						<pre class="brush: php;">
+						remove_filter('posts_where', 'search_where_add');
+						
+						$newPosts = get_posts('cat=3&numberpost=5');
+						if($newPosts):
+						foreach($newPosts as $post){
+						・・・（省略）・・・</pre>
+					</li>
+					<li>検索結果のURLをテンプレート内のaタグ等に直接、リンクとして設定する際は、URLをesc_url関数（<a href="http://wpdocs.osdn.jp/%E9%96%A2%E6%95%B0%E3%83%AA%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9/esc_url" target="_blank">WordPress Codex - 関数リファレンス/esc url</a>）で囲ってください。そのまま記述すると「&」記号等がエスケープされず、潜在的なセキュリティホールをつくることになります。
+				</ul>
+			
+			<p class="tophe"><a href="#top"><img src="images/button-top.png" width="74" height="13" alt="TOPへ戻る"/></a></p>
+		</div>
+	</div>
+	
+	
+	<!--フッター-->
+	<div id="footer" class="clearfix">
+		<div id="footer-wrap">
+			<ul id="address">
+				<li style="font-size: 120%; font-weight: bold;"><a href="http://www.firstelement.jp/" target="_blank">ファーストエレメント</a></li>
+				<li><a href="http://www.firstelement.jp/" target="_blank">http://www.firstelement.jp/</a></li>
+				<li>TEL：0265-25-1407　FAX：0265-25-9334</li>
+			</ul>
+			<ul id="footer-menu">
+				<li><a href="index.html">TOP</a></li>
+				<li><a href="manual.html">使用方法</a></li>
+				<li><a href="newfunction.html">新機能</a></li>
+				<li><a href="support.html">サポート</a></li>
+				<li><a href="http://www.firstelement.jp/contact/" target="_self">お問い合わせ</a></li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
