@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 		<!-- BREADCRUMBS -->
-		<section class="breadcrumbs_block clearfix parallax">
+		<section class="breadcrumbs_block4 clearfix parallax">
 			<div class="container center">
-				<h2><?php the_title(); ?></h2>
+<!-- 				<h2><?php the_title(); ?></h2> -->
 			</div>
 		</section><!-- //BREADCRUMBS -->
 

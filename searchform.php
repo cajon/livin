@@ -11,8 +11,10 @@
             <h3>検索条件が指定されていません。</h3>
                 <?php endif; ?>
                 <?php } else { ?>
-            現在の登録件数：<?php $count_posts = wp_count_posts();
-                                echo esc_html( $count_posts->publish );?>件
+            現在の登録件数：<?php 
+											$news_post_count = wp_count_posts('bukken')->publish; 
+										        echo $news_post_count;
+										?>件
             <?php } ?>
         </div>
     </div>

@@ -77,7 +77,7 @@
             </div><!-- //SINGLE BLOG POST -->
 
 
-                <a href="#" >
+                <a href="<?php echo home_url(); ?>/contact" >
                   <div class="btn_contact">
                       <p>お問い合わせ</p>
                   </div>

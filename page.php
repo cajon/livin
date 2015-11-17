@@ -2,7 +2,7 @@
 		<!-- BREADCRUMBS -->
 		<section class=" clearfix parallax">
 	      <?php if(is_page('equipment')): ?>
-	          <img src="<?php bloginfo('template_url'); ?>/images/bg2.png" alt="設備・使用">
+	          <img src="<?php bloginfo('template_url'); ?>/images/bg2.png" alt="設備・仕様">
 	        <?php elseif(is_page('searchform')): ?>
 	          <img src="<?php bloginfo('template_url'); ?>/images/bg1.png" alt="検索ページ">
 	        <?php elseif(is_page('customer')): ?>

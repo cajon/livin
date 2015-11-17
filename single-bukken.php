@@ -61,21 +61,21 @@
 											</tr>
 											<tr>
 											  <td class="active">敷金</td>
-											  <td>0円</td>
+											  <td><?php echo get_post_meta($post->ID,'caution', true) ?></td>
 											  <td class="active">取引形態</td>
-											  <td>売主/貸主</td>
+											  <td><?php echo get_post_meta($post->ID,'transaction', true) ?></td>
 											</tr>
 											<tr>
 											  <td class="active">礼金</td>
-											  <td>0円</td>
+											  <td><?php echo get_post_meta($post->ID,'reward', true) ?></td>
 											  <td class="active">築年数</td>
 											  <td><?php echo get_post_meta($post->ID,'age', true) ?></td>
 											</tr>
 											<tr>
-											  <td class="active">補償金<br>事務手数料</td>
-											  <td>0円</td>
-											  <td class="active">更新料または<br>再契約量</td>
-											  <td>-</td>
+											  <td class="active">保証金<br>事務手数料</td>
+											  <td><?php echo get_post_meta($post->ID,'guarantee', true) ?></td>
+											  <td class="active">更新料または<br>再契約料</td>
+											  <td><?php echo get_post_meta($post->ID,'update', true) ?></td>
 											</tr>
 											</tbody>
                                         </table>
@@ -93,30 +93,30 @@
                                         	</tbody>
                                         </table>
 <!--                                         <p><?php echo apply_filters('the_content', get_post_meta($post->ID, 'status', true)); ?></p> -->
+
+										
 										<?php if(get_field('bukken_repeat')): ?>
 										 <table class="table table-responsive t_repeat">
 										 <?php while(has_sub_field('bukken_repeat')): 
 											 $image = get_sub_field('room_img');
 										 ?>
+										 
 	                                        	<tbody>
 		                                        	<tr class="active">
 													  <td class="active">部屋番号</td>
-													  <td class="active">イメージ</td>
-													  <td class="active">間取り</td>
-													  <td class="active">価格</td>
-													  <td class="active">専有面積</td>
+													  <td class="active">間取り<br>専有面積</td>
+													  <td class="active">賃料<br>管理費</td>
 													  <td class="active">入居時期</td>
 		                                        	</tr>
 													<tr>
-													  <td><?php the_sub_field('room_num'); ?></td>
+													  <td><?php the_sub_field('room_num'); ?><br><a href="<?php echo $image['url']; ?>"><img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>" width= "300px" /></a></td>
 													  
-													  <td><img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>" /></td>
+<!-- 													  <td><img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>" /></td> -->
 													  
-													  <td><?php the_sub_field('room_type'); ?></td>
+													  <td><?php the_sub_field('room_type'); ?><br><?php the_sub_field('room_width'); ?>㎡</td>
 													  
-													  <td><?php the_sub_field('room_price'); ?></td>
-													  
-													  <td><?php the_sub_field('room_width'); ?></td>
+													  <td><?php the_sub_field('room_price'); ?>万円<br><?php the_sub_field('management'); ?>円</td>
+
 													  
 													  <td><?php the_sub_field('room_state'); ?></td>
 													</tr>

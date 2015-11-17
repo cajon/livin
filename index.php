@@ -3,6 +3,8 @@
     <section id="home" class="padbot0">
       <!-- TOP SLIDER -->
       <div class="top_slider">
+      	<h1 class="sm-title">明日をもっと素敵に。<br>
+		  		<span>Liv・in</span></h1>
         <!-- VIDEO BACKGROUND -->
               <a name="P2" class="player" id="P2" data-property="{videoURL:'T_R8s-AFyIs',containment:'.top_slider',autoPlay:true, mute:true, startAt:0, opacity:1}"></a>
               <!-- //VIDEO BACKGROUND -->
@@ -18,9 +20,9 @@
 
         <hr class="style-eight">
           <!-- ROW -->
-          <h2>リヴイン　4つの特徴</h2>
+          <h2>リヴイン　3つの特徴</h2>
           <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 col-ss-12 margbot30">
             <div class="about_4">
               <a class="services_item" href="javascript:void(0);" >
                 <p>敷金・礼金0円</p>
@@ -29,7 +31,8 @@
               </a>
             </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+            <!--
+<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
             <div class="about_4">
               <a class="services_item" href="javascript:void(0);" >
                 <p>仲介手数料0円</p>
@@ -38,16 +41,17 @@
               </a>
             </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+-->
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 col-ss-12 margbot30">
             <div class="about_4">
               <a class="services_item" href="javascript:void(0);" >
                 <p>分譲マンション</p>
                 <img src="<?php bloginfo('template_url' ); ?>/img/about3.jpg" alt="">
-                <span>自社ブランドの分譲マンションを都内に約3000戸数保有しております。<br>&nbsp;</span>
+                <span>自社ブランドの分譲マンションを都内に約3000戸数保有しております。</span>
               </a>
             </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 col-ss-12 margbot30">
             <div class="about_4">
               <a class="services_item" href="javascript:void(0);" >
                 <p>ペット可</p>
@@ -239,7 +243,7 @@
           <div class="col-md-8 col-md-offset-2">
             <h3>Information / お知らせ</h3>
               <ul><?php query_posts('showposts=5'); ?><?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-                <li><a href="<?php the_permalink(); ?>"><?php the_date(); ?>　<?php the_title(); ?></a></li>
+                <li><a href="<?php the_permalink(); ?>"><?php the_time('Y年m月d日'); ?>　<?php the_title(); ?></a></li>
                 <hr class="style-blog">
                 <?php endwhile; endif; ?>
               </ul>
